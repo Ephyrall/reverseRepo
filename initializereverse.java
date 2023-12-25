@@ -21,7 +21,7 @@ public class initializereverse {
          }
          endPoint--;
       }
-
+//////////
       System.out.println("Реверснутая строка: ");
       for (int i = 0; i < charArray.length; i++) {
          System.out.print(charArray[i]);
