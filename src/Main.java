@@ -1,15 +1,13 @@
 public class Main {
     public static void main(String[] args) {
-        userInput userInput = new userInput();
+        InputHandler userInput = new InputHandler();
 
         String input = userInput.getUserInput();
 
-        stringReversing stringReversing = new stringReversing();
+        StringManipulator stringManipulator = new StringManipulator();
 
-        String reversedString = stringReversing.reverseString(input);
+        String ManipulatedString = stringManipulator.reverseStringWithoutDigits(input);
 
-        consoleResult consoleResult = new consoleResult();
-
-        consoleResult.printResult(reversedString);
+        System.out.println(ManipulatedString);
     }
 }
