@@ -1,4 +1,4 @@
-package EphyralCorp;
+package ephyral_corp;
 
 public class Main {
     public static void main(String[] args) {

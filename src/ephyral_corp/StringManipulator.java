@@ -1,4 +1,4 @@
-package EphyralCorp;
+package ephyral_corp;
 public class StringManipulator {
     public String reverseStringWithoutDigits(String input) {
 

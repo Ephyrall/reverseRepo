@@ -1,4 +1,4 @@
-package EphyralCorp;
+package ephyral_corp;
 import java.util.Scanner;
 public class InputHandler {
 
